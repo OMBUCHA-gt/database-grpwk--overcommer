@@ -26,34 +26,6 @@ Key Features
 - Future-ready structure for order history and shipping workflows
 
 
-Tables Implemented
-
-Table                            Purpose
-Book                             Stores book details
-Author                           Stores author details
-Book_author                      Many-to-many mapping of books and authors
-Publisher                        Book publishers
-Book_language                    Language list
-Customer                         Bookstore customers
-Customer_address                 Mapping of customers to addresses
-Address                          All physical addresses
-Address_status                   Track if address is current/old
-Country                          Supported countries
-Cust_order                       Customer orders
-Order_line                       Line items per order
-Shipping_method                  Shipping methods (e.g. standard, express)
-Order_status                     Status list (e.g. pending, delivered)
-Order_history                    Logs of order status transitions
-
-
-User Roles and Permissions
-
-User                          Description                                    Privileges
-Bookstore_admin               Full access to all database actions            ALL PRIVILEGES
-Bookstore_staff               Can manage books, customers, orders            SELECT, INSERT, UPDATE
-Bookstore_analyst             Read-only access                               SELECT only
-
-
 Learning Outcomes
 - Design a normalized schema for real-world business logic
 
