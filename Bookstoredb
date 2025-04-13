@@ -242,3 +242,18 @@ INSERT INTO order_history (order_id, order_status_id, change_date) VALUES
 (3, 1, '2024-10-28 10:00:00'),
 (4, 1, '2024-10-29 10:00:00'),
 (4, 2, '2024-10-29 14:00:00');
+
+-- Create roles
+CREATE ROLE bookstore_admin;
+CREATE ROLE bookstore_staff;
+CREATE ROLE bookstore_reader;
+
+-- Grant privileges to roles
+GRANT ALL PRIVILEGES ON bookstore_db.* TO bookstore_admin;
+GRANT SELECT, INSERT, UPDATE ON bookstore_db.* TO bookstore_staff;
+GRANT SELECT ON bookstore_db.* TO bookstore_reader;
+
+-- Create users
+CREATE USER 'admin_user'@'localhost' IDENTIFIED BY 'AdminPass123';
+CREATE USER 'staff_user'@'localhost' IDENTIFIED BY 'StaffPass123';
+CREATE USER 'reader_user'@'localhost' IDENTIFIED BY 'ReadPass123';
