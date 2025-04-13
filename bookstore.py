@@ -1,5 +1,4 @@
-CREATE DATABASE bookstore;
-
+<-- CREATE DATABASE bookstore -->
 <-- Creating a list of all books 
 USE bookstore;
 

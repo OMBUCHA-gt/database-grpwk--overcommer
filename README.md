@@ -1,3 +1,5 @@
+
+<<<<<<< main
 Bookstore Database Design & Programming with SQL
 
 Overview
@@ -38,3 +40,10 @@ Learning Outcomes
 
 LINK TO DRAW.IO
 https://docs.google.com/document/d/1pLrZtSvYZejZx4FM07vFg1VOpU05fUI51V9FXh1cYb0/edit?usp=sharing
+=======
+# database-grpwk--overcommer
+
+A_diagram_depicting_an_Entity-Relationship_Diagram
+
+![Entity_Relationship_diagram](https://github.com/user-attachments/assets/9e61af3b-08ed-4e75-9896-d330208ee6f0)
+>>>>>>> main
